@@ -2,7 +2,7 @@
 #include <R.h>
 #include <Rdefines.h>
 #include <Rcpp.h>
-
+#include <Rinternals.h>
 #include "bigmemory/BigMatrix.h"
 
 #include "bigmemory/MatrixAccessor.hpp"
@@ -20,7 +20,7 @@
 #include <sstream>
 #include <stdexcept>
 
-#include <Rinternals.h>
+
 
 
 using namespace std;
