@@ -11,7 +11,7 @@
 
 #include "niftir/niftir.h"
 #include "niftir/nifti1.h"
-
+#include <Rinternals.h>
 #include <utility>
 #include <vector>
 #include <algorithm>
@@ -20,7 +20,7 @@
 #include <sstream>
 #include <stdexcept>
 
-#include <Rinternals.h>
+
 
 using namespace std;
 
