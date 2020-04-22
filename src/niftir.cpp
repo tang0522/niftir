@@ -1,8 +1,10 @@
 #include <iostream>
 #include <R.h>
+#include <Rcpp.h>
+
 #include <Rdefines.h>
 
-#include <Rcpp.h>
+
 #include "bigmemory/BigMatrix.h"
 
 #include "bigmemory/MatrixAccessor.hpp"
