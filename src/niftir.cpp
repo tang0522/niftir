@@ -1,7 +1,7 @@
 #include <iostream>
 #include <R.h>
 #include <Rdefines.h>
-#include <Rinternals.h>
+
 #include <Rcpp.h>
 #include "bigmemory/BigMatrix.h"
 
@@ -19,6 +19,8 @@
 #include <boost/shared_ptr.hpp>
 #include <sstream>
 #include <stdexcept>
+
+#include <Rinternals.h>
 
 using namespace std;
 
