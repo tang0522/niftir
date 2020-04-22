@@ -2,8 +2,7 @@
 #include <R.h>
 #include <Rdefines.h>
 #include <Rcpp.h>
-using namespace Rcpp;
-#include <Rinternals.h>
+
 #include "bigmemory/BigMatrix.h"
 
 #include "bigmemory/MatrixAccessor.hpp"
